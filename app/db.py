@@ -1,6 +1,4 @@
-"""
-Database utility: initializes SQLite DB and exposes a connection factory.
-"""
+# Database utility: initializes SQLite DB and exposes a connection factory.
 import sqlite3
 from pathlib import Path
 
