@@ -48,6 +48,6 @@ We welcome contributions from all skill levels. Be kind, be curious, and help us
 
 <div align="center">
 
-![Developer](https://img.shields.io/badge/Developed%20By-Avijit_Jana-blueviolet?style=for-the-badge)
+![Developer](https://img.shields.io/badge/Developed%20By-Avijit_Jana-navy?style=for-the-badge)
 
 </div>
