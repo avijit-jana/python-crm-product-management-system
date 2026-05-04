@@ -3,8 +3,8 @@ import streamlit as st
 import pandas as pd
 import altair as alt
 from datetime import datetime, timedelta
-from app.models import CRPM
-from app.analytics import (
+from models import CRPM
+from analytics import (
     total_revenue_and_count,
     revenue_timeseries,
     monthly_sales_breakdown,
@@ -18,7 +18,7 @@ from app.analytics import (
     low_stock_alerts,
     customer_retention_metrics,
 )
-from app.db import init_db
+from db import init_db
 
 # Page configuration
 st.set_page_config(

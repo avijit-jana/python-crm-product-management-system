@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from typing import Optional, List, Dict, Any
 from datetime import datetime
-from app.db import get_conn
+from db import get_conn
 
 
 @dataclass
@@ -74,7 +74,7 @@ class CRPM:
     """Enhanced service with comprehensive CRUD operations and business logic."""
 
     def __init__(self):
-        from app.db import init_db
+        from db import init_db
         init_db()
 
     # ==================== CUSTOMER OPERATIONS ====================

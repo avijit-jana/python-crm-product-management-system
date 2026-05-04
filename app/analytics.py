@@ -2,8 +2,8 @@
 import pandas as pd
 from datetime import datetime, timedelta
 from typing import Dict, List, Any, Tuple
-from app.models import CRPM
-from app.utils import to_float
+from models import CRPM
+from utils import to_float
 
 service = CRPM()
 
